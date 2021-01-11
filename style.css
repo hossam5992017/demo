@@ -1,0 +1,54 @@
+nav {
+background-color: darkturquoise;
+text-align: center;
+
+}
+a {
+    text-decoration-line: none;
+
+}
+nav ul  {
+    list-style: none;
+
+}
+nav li {
+display: inline-block;
+    padding: 30px;
+
+}
+.box {
+   display: inline-block;
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    margin: 20px;
+
+}
+.flex {
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: blue dashed 20px;
+}
+@keyframes  movebox {
+0% {left:0px; top :0px;}
+25% {left:50px; top :0px;}
+50% {left:50px; top :50px;}
+75% {left:0px; top :50px;}
+100% {left:0px; top :0px;}
+
+}
+#box1 {
+    animation: movebox 5s 4s;
+    position: relative;
+    animation-iteration-count: infinite;
+}
+html {
+background-color: cadetblue;
+}
+form input,  textarea,  button {
+    margin: 30px;
+    display: block;
+
+}
